@@ -3,6 +3,9 @@
 
 This project focuses on using machine learning for image processing, specifically for classifying cancer types based on medical imaging. By leveraging deep learning techniques and adversarial training, this project aims to enhance the robustness and accuracy of cancer diagnosis systems.
 
+## Highlight
+9% classification accuracy improvement post adversarial attack and training.
+
 ## Key Features
 
 - **Data Preprocessing**: Image transformations for data normalization and augmentation.
@@ -32,13 +35,13 @@ This project focuses on using machine learning for image processing, specificall
 ![image](https://github.com/NikosBakalis/Adversarial-attack-on-Intel-and-MobileODT-Cervical-Cancer-Screening/assets/47317522/835deba9-5c75-469b-af60-1f9515f4d983)
 - **Loss (Blue Line)**: Shows a steep decline initially, stabilizing towards the later epochs.
 - **Accuracy (Orange Line)**: Increases sharply at the start and then levels off.
-- **Adversarial Accuracy (Green Line)**: Starts relatively high, decreases slightly in the middle epochs, then slightly increases and stabilizes.
+- **Adversarial Accuracy (Green Line)**: Starts relatively high, and remains stable for the rest of the epochs.
 
 ### With Adversarial Attack with Adversarial Attack Training
 ![image](https://github.com/NikosBakalis/Adversarial-attack-on-Intel-and-MobileODT-Cervical-Cancer-Screening/assets/47317522/bf9827bb-df88-4c0b-8050-852df05c531a)
 - **Loss (Blue Line)**: Begins high, drops rapidly, and then flattens.
-- Accuracy (Orange Line)**: Begins low, rises quickly, and remains fairly constant.
-- **Adversarial Accuracy (Green Line)**: Begins relatively high, drops and then gradually stabilizes.
+- **Accuracy (Orange Line)**: Begins low, rises quickly, and remains fairly constant.
+- **Adversarial Accuracy (Green Line)**: Begins relatively high, surpases the orange line and then gradually stabilizes at a level around 9% over the model acuracy.
 
 ## Installation
 
