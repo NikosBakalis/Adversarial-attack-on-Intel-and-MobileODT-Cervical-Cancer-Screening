@@ -1,4 +1,3 @@
-
 # Project Overview
 
 This project focuses on using machine learning for image processing, specifically for classifying cancer types based on medical imaging. By leveraging deep learning techniques and adversarial training, this project aims to enhance the robustness and accuracy of cancer diagnosis systems.
@@ -42,6 +41,13 @@ This project focuses on using machine learning for image processing, specificall
 - **Loss (Blue Line)**: Begins high, drops rapidly, and then flattens.
 - **Accuracy (Orange Line)**: Begins low, rises quickly, and remains fairly constant.
 - **Adversarial Accuracy (Green Line)**: Begins relatively high, surpases the orange line and then gradually stabilizes at a level around 9% over the model acuracy.
+
+## Performeed Adversarial Attachkes
+4 Adversarial Attacks were written and executed for the purposes of this code:
+- FGSM attack
+- Random Perturbation attack
+- Gaussian Noise attack
+- BIM attack
 
 ## Installation
 
